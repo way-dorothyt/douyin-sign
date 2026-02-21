@@ -1,4 +1,4 @@
-# 抖音七神 x-medusa x-perseus 最新版本 (37.8.0) 纯算 (持续更新中)
+# 抖音七神 x-medusa x-perseus 最新版本 (37.8.0) 纯算
 
 ## 前言
 
