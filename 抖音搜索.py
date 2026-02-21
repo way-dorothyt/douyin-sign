@@ -3,7 +3,7 @@ import hashlib
 import requests
 from urllib.parse import quote
 
-import DySignApi
+import 抖音签名
 
 url = 'https://search3-search-lf.amemv.com/aweme/v2/search/general/stream/?klink_egdi=AALTrm0WUDpf5ZmknMiAyoCNzAtxgRvXAtv4Ccw1FV0dcqjVNf3P4moG&iid=3651929102896713&device_id=388592219267168&ac=wifi&channel=xiaomi_1128_64&aid=1128&app_name=aweme&version_code=370800&version_name=37.8.0&device_platform=android&os=android&ssmix=a&device_type=22041216C&device_brand=Redmi&language=zh&os_api=33&os_version=13&manifest_version_code=370801&resolution=1080*2316&dpi=440&update_version_code=37809900&_rticket=1771405130960&package=com.ss.android.ugc.aweme&mcc_mnc=46011&first_launch_timestamp=1771048722&last_deeplink_update_version_code=0&cpu_support64=true&host_abi=arm64-v8a&is_guest_mode=0&app_type=normal&minor_status=0&appTheme=light&is_preinstall=0&need_personal_recommend=1&is_android_pad=0&is_android_fold=0&ts=1771405130&cdid=fa273453-be88-48a1-9f39-69261d24f283&oaid=e91518b8fc0d2429'
 
@@ -37,7 +37,7 @@ param_json = {
     "base": "3780"
 }
 
-sign_json = json.loads(DySignApi.call_seven_shen(json.dumps(param_json)))
+sign_json = json.loads(抖音签名.call_seven_shen(json.dumps(param_json)))
 
 print(sign_json)
 
