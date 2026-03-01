@@ -21,6 +21,8 @@ param_json = {
     "version" : "37.8.0",
     # 抖音设备
     "device_id" : "388592219267168",
+    # 环境 Code 根据不同的请求填写
+    "env_code" : "0400000000000000",
     # 请求Url
     "url" : url,
     # headers 中 x-common-params-v2 参数 (没有可留空)
